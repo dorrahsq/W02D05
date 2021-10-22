@@ -1,0 +1,73 @@
+.wrapper,
+.div2,
+.div3 {
+  display: flex;
+  justify-content: center;
+  margin: 0px 450px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.wrapper {
+  margin-top: 160px;
+  background-color: rgba(26, 24, 24, 0.658);
+  padding: 25px;
+}
+.div2 {
+  background-color: rgba(191, 216, 216, 0.596);
+}
+
+.completeTaskB {
+  text-decoration: line-through;
+  color: rgba(128, 128, 128, 0.767);
+}
+
+.uncompleteTaskB {
+  text-decoration: none;
+}
+
+.counter0 {
+  text-align: center;
+}
+.counter0,
+button {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+button {
+  border-style: none;
+  border-radius: 3px;
+  margin: 6px;
+}
+
+li:hover {
+  color: rgb(62, 74, 80);
+  cursor: pointer;
+}
+
+.addinput {
+  margin-right: 20px;
+  width: 250px;
+}
+
+#addBtn {
+  background-color: white;
+}
+#addBtn:hover {
+  background-color: rgba(236, 232, 232, 0.829);
+}
+
+.div2 button {
+  background-color: white;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(184, 177, 177, 0.315);
+}
+
+i:first-child {
+  margin-left: 50px;
+}
+i:last-child {
+  margin-right: 7px;
+}
